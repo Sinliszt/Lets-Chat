@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <script src="chat.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <div class="col-lg-7 col-md-6 col-sm-6 col-xs-1">
+                <img src="chat.png" id="logo">
+                <img src="background5.jpg" id="background">
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-6 col-xs-11 login_div" style="z-index: 6; background-color:rgb(232, 217, 237)">
+                <h1 style="margin-top: 74px; font-family: 'Ms Madi', cursive; font-size: 60px; color:blueviolet;">Let's Chat</h1><br>
+                <h3 style="font-family: 'Roboto Condensed', sans-serif; color: deeppink;">Chat With Your Friends!</h3>
+                <h4 style="font-family: 'Roboto Condensed', sans-serif; color:deeppink;">Sign Up</h4><br>
+                <div class="form-group">
+                    <label style="color:blueviolet;">User Name:</label>
+                    <input type="text" id="name_input" class="form-control" style="background-color:rgb(251, 202, 228); border-width: 3px; border-color: deeppink; border-radius: 15px;"placeholder="Enter Your Username Here">
+                </div><br>
+                <button id="login_button" onclick="addUser()" style="width: 50%; padding: 5px; border-radius: 5px; background-color: blueviolet; border-width: 0.01px; border-color: plum; color: white;">Sign in</button>
+                <br><br>
+            </div>
+        </center>
+    </body>
+</html>

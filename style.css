@@ -1,0 +1,25 @@
+body{
+    background-color: pink;
+}
+.login_div{
+    background: white;
+    float: right;
+    padding-top: 70px;
+    margin-top: -70px;
+    padding-bottom: 185px;
+}
+#background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: -1px;
+    margin-left: -15px;
+    z-index: 1
+  }
+#logo {
+    position: absolute;
+    width: 300px;
+    top: 150px;
+    left: 190px;
+    z-index: 3;
+  }
