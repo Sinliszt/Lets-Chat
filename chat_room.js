@@ -10,3 +10,7 @@ var firebaseConfig = {
   };
 
   firebase.initializeApp(firebaseConfig);
+
+function logout(){
+  window.location="index.html";
+}
