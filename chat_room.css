@@ -1,0 +1,29 @@
+body{
+    background-image: url("background1st.jpg");
+}
+#welcome{
+    float: none;
+}
+#output{
+    float: center;
+    color: white;
+    font-size: 22px;
+    padding: 5px; 
+    width:80%;
+    background: rgba(255, 177, 219, 0.767);
+    border-radius: 15px;
+    border-color: white;
+    border-width: 2px;
+}
+#output1{
+    float: center;
+    color: white;
+    font-size: 22px;
+    padding: 5px; 
+    width:80%;
+    background: rgba(255, 177, 219, 0.767);
+    border-radius: 15px;
+    border-color: white;
+    border-width: 2px;
+    margin-bottom: 70px;
+}
