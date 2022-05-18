@@ -21,7 +21,7 @@ function logout(){
 
 function send(){
     msg = document.getElementById("msg").value;
-    console.log("msg");
+    console.log(msg);
     firebase.database().ref(room_name).push({
         name: user_name,
         message: msg,
