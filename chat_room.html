@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link rel="stylesheet" href="chat_room.css">
+    </head>
+    <body>
+        <div class="container">
+            <button style="float: right; width: 10%; padding: 5px; border-radius: 5px; background-color: deeppink; border-width: 0.01px; border-color: rgb(249, 207, 229); color: white;" onclick="logout();">Logout</button>
+            <br>
+            <center>
+                <h1 style="margin-top: 74px; font-family: 'Ms Madi', cursive; font-size: 60px; color:blueviolet;">Let's Chat
+                </h1>
+                <h2 style="font-family: 'Roboto Condensed', sans-serif; color: deeppink;" id="welcoming"></h3>
+                <div class="form-group" style="width: 80%">
+                    <label style="color:blueviolet; font-family: 'Roboto Condensed', sans-serif;">Room Name: </label>
+                    <input class="form-control" id="room_input" style="background-color:rgb(251, 202, 228); border-width: 3px; border-color: deeppink; border-radius: 15px;" placeholder="Enter Room Name Here">
+                </div>
+                <button onclick="addRoom();" style="width: 50%; padding: 5px; border-radius: 5px; background-color: blueviolet; border-width: 0.01px; border-color: plum; color: white;">Add Room</button>
+                <h3 style="color: deeppink; font-family: 'Roboto Condensed';">Trending Rooms</h3>
+                <div id="output"></div>
+            </center>
+        </div>
+        <script src="chat_room.js"></script>
+    </body>
+</html>
